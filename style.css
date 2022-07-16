@@ -1,0 +1,202 @@
+@media only screen and (min-device-width: 1440px) {
+    body {
+        width: 1440px;
+        font-size: 14px;
+        background-color: hsl(30, 38%, 92%);
+    }
+
+    .product_image_web {
+        width: 333px;
+        height: 394px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        display: block;
+    }
+
+    .product_image_mobile {
+        display: none;
+    }
+
+    .column {
+        padding: 4%;
+    }
+
+    .background_cream {
+        background-color: hsl(30, 38%, 92%);
+    }
+
+    .prodct_category {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        color: hsl(228, 12%, 48%);
+    }
+
+    .prodct_description {
+        font-family: 'Fraunces', sans-serif;
+        font-weight: 700;
+        color: hsl(212, 21%, 14%);
+    }
+
+    .container {
+        width: 1550px;
+        height: 700px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .child {
+        width: 602px;
+        display: flex;
+        background-color: hsl(0, 0%, 100%);
+        border-radius: 10px;
+    }
+
+    .price {
+        color: hsl(158, 36%, 37%);
+        font-family: 'Fraunces', sans-serif;
+        font-weight: 700;
+        font-size: 22px;
+        width: 115px;
+    }
+
+    .original_price {
+        text-decoration: line-through;
+        font-family: 'Fraunces', sans-serif;
+        margin-top: 3%;
+        color: hsl(228, 12%, 48%);
+    }
+
+    .cart_button {
+        background-color: hsl(158, 36%, 37%);
+        color: white;
+        margin-top: 10%;
+        width: 225px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .alignment_Icon {
+        margin-left: 4%;
+    }
+
+    .attribution {
+        font-size: 11px;
+        text-align: center;
+    }
+
+    .attribution a {
+        color: hsl(228, 45%, 44%);
+    }
+}
+
+@media screen and (max-width: 575.98px) {
+    body {
+        font-size: 14px;
+        background-color: hsl(30, 38%, 92%);
+    }
+
+    .product_image_mobile {
+        width: 40vh;
+        min-height: 30vh;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        display: block;
+    }
+
+    .product_image_web {
+        display: none;
+    }
+
+    .background_cream {
+        margin: 6% 3% 0% 3%;
+    }
+
+    .column {
+        width: 37.5vh;
+        padding: 3% 3% 3% 3%;
+        background-color: hsl(0, 0%, 100%);
+        margin: 0% 3% 0% 3%;
+        height: 49vh;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+
+    .prodct_category {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        color: hsl(228, 12%, 48%);
+        font-size: 18px;
+        line-height: 1.5;
+    }
+
+
+    .prodct_description {
+        font-family: 'Fraunces', sans-serif;
+        font-weight: 700;
+        color: hsl(212, 21%, 14%);
+        font-size: 32px;
+    }
+
+    .price {
+        color: hsl(158, 36%, 37%);
+        font-family: 'Fraunces', sans-serif;
+        font-weight: 700;
+        font-size: 32px;
+        width: 16vh;
+    }
+
+    .original_price {
+        text-decoration: line-through;
+        font-family: 'Fraunces', sans-serif;
+        margin-top: 4%;
+        color: hsl(228, 12%, 48%);
+        font-size: 16px;
+    }
+
+    .cart_button {
+        background-color: hsl(158, 36%, 37%);
+        color: white;
+        margin-top: 10%;
+        width: 36vh;
+        height: 7vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+        font-size: 18px;
+        cursor: pointer;
+    }
+
+    .carts_img {
+        width: 3vh;
+        height: 3vh;
+    }
+
+    .alignment_Icon {
+        margin-left: 4%;
+    }
+
+    .attribution {
+        font-size: 16px;
+        text-align: center;
+        margin-top: 5%;
+    }
+
+    .attribution a {
+        color: hsl(228, 45%, 44%);
+    }
+
+}
+
+.displayFlex {
+    display: flex;
+}
+
+.linespacing {
+    letter-spacing: 3px;
+}
