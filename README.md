@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/BharathBhatta20/product-preview-card-component-main]
+- Solution URL: [https://www.frontendmentor.io/solutions/product-preview-card-using-css-flex-box-qmHCeMp_3J]
 - Live Site URL: [https://bharathbhatta20.github.io/product-preview-card-component-main/]
 
 ### Built with
