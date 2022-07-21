@@ -1,22 +1,16 @@
-@media only screen and (min-device-width: 1440px) {
+@media only screen and (min-width: 1200px) {
     body {
         width: 1440px;
         font-size: 14px;
         background-color: hsl(30, 38%, 92%);
     }
 
-    .product_image_web {
+    .product_image {
         width: 333px;
         height: 394px;
         border-top-left-radius: 10px;
         border-bottom-left-radius: 10px;
-        display: block;
     }
-
-    .product_image_mobile {
-        display: none;
-    }
-
     .column {
         padding: 4%;
     }
@@ -94,24 +88,18 @@
     }
 }
 
-@media screen and (max-width: 575.98px) {
+@media (min-width: 375px) and (max-width: 450px) {
     body {
         font-size: 14px;
         background-color: hsl(30, 38%, 92%);
     }
 
-    .product_image_mobile {
+    .product_image {
         width: 40vh;
         min-height: 30vh;
         border-top-left-radius: 15px;
         border-top-right-radius: 15px;
-        display: block;
     }
-
-    .product_image_web {
-        display: none;
-    }
-
     .background_cream {
         margin: 6% 3% 0% 3%;
     }
